@@ -1,0 +1,130 @@
+{
+ "generatedBy": "eval/fixtures/mixed/gen.mjs",
+ "generatorSha256": "cafed7ae24d015baed7a5c8425f1c1768d093bd6d610c857742746d48fa5bf83",
+ "seed": 7,
+ "totalLines": 170,
+ "note": "Deterministic: the same seed and generator give the same bytes. Prose lines have no exact-value candidates.",
+ "fixtures": [
+  {
+   "id": "m000",
+   "density": 0,
+   "lines": 171,
+   "dataLines": 0,
+   "dataShare": 0,
+   "dumps": [],
+   "chars": 12627,
+   "sha256": "df5344eda804c660e1c754e26376c81ac60971778ba48878be11b065cd5ca231"
+  },
+  {
+   "id": "m010",
+   "density": 10,
+   "lines": 171,
+   "dataLines": 17,
+   "dataShare": 0.099,
+   "dumps": [
+    {
+     "kind": "log",
+     "lines": 9
+    },
+    {
+     "kind": "table",
+     "lines": 8
+    }
+   ],
+   "chars": 13002,
+   "sha256": "f87518ef98cc666a851916108ada550391e47d304e7fd3ea0698aafbe5be8b2c"
+  },
+  {
+   "id": "m025",
+   "density": 25,
+   "lines": 171,
+   "dataLines": 43,
+   "dataShare": 0.251,
+   "dumps": [
+    {
+     "kind": "log",
+     "lines": 15
+    },
+    {
+     "kind": "table",
+     "lines": 14
+    },
+    {
+     "kind": "log",
+     "lines": 14
+    }
+   ],
+   "chars": 13414,
+   "sha256": "3f8af6a5dc0e4530616d677cb13050b4337fabc1a284cde253675129a50be3a6"
+  },
+  {
+   "id": "m050",
+   "density": 50,
+   "lines": 171,
+   "dataLines": 85,
+   "dataShare": 0.497,
+   "dumps": [
+    {
+     "kind": "log",
+     "lines": 29
+    },
+    {
+     "kind": "table",
+     "lines": 28
+    },
+    {
+     "kind": "log",
+     "lines": 28
+    }
+   ],
+   "chars": 14278,
+   "sha256": "c8ae29b13290f764b5741a2e97914e19f53c0ac14c710967f3f43a545919c697"
+  },
+  {
+   "id": "m075",
+   "density": 75,
+   "lines": 171,
+   "dataLines": 128,
+   "dataShare": 0.749,
+   "dumps": [
+    {
+     "kind": "log",
+     "lines": 43
+    },
+    {
+     "kind": "table",
+     "lines": 43
+    },
+    {
+     "kind": "log",
+     "lines": 42
+    }
+   ],
+   "chars": 15037,
+   "sha256": "48d5e2bb8e8da0c4a61714cc663c11d43b41985a64162c1c9a5fe7b14c87d485"
+  },
+  {
+   "id": "m100",
+   "density": 100,
+   "lines": 171,
+   "dataLines": 167,
+   "dataShare": 0.977,
+   "dumps": [
+    {
+     "kind": "log",
+     "lines": 56
+    },
+    {
+     "kind": "table",
+     "lines": 56
+    },
+    {
+     "kind": "log",
+     "lines": 55
+    }
+   ],
+   "chars": 15745,
+   "sha256": "7f19ab02e11304afd40216c8ab7d6cfaf22ddbf2e7ee7a8f4bc91d4e86dfd137"
+  }
+ ]
+}

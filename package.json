@@ -1,0 +1,32 @@
+{
+  "name": "pxpipe-keep-exact",
+  "version": "0.1.0",
+  "private": true,
+  "description": "pxpipe splitBlock hook: keeps lines with exact values (ids, hashes, paths, numbers) as text, chosen per position by Jev, and images the rest.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/plugin.js"
+    },
+    "./lib": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist/", "README.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "pxpipe-proxy": ">=0.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "pxpipe-proxy": "link:../pxpipe",
+    "typescript": "7.0.2",
+    "vitest": "5.0.4"
+  }
+}

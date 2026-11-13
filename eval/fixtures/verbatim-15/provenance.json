@@ -1,0 +1,75 @@
+{
+  "generatedBy": "eval/verbatim-15/gen-fixtures.mjs",
+  "seed": 1,
+  "pages": 5,
+  "needlesPerPage": 3,
+  "rows": 90,
+  "cols": 312,
+  "cellW": 5,
+  "cellH": 8,
+  "imageDims": "1568x728",
+  "style": {
+    "cellWBonus": 0,
+    "cellHBonus": 0,
+    "aa": true
+  },
+  "offProductionGeometry": false,
+  "note": "Deterministic: same seed reproduces these pages byte-for-byte. Source text is in page*.txt.",
+  "manifest": [
+    {
+      "page": 0,
+      "width": 1568,
+      "height": 728,
+      "rows": 90,
+      "needleRows": [
+        1,
+        47,
+        56
+      ]
+    },
+    {
+      "page": 1,
+      "width": 1568,
+      "height": 728,
+      "rows": 90,
+      "needleRows": [
+        14,
+        33,
+        44
+      ]
+    },
+    {
+      "page": 2,
+      "width": 1568,
+      "height": 728,
+      "rows": 90,
+      "needleRows": [
+        14,
+        30,
+        37
+      ]
+    },
+    {
+      "page": 3,
+      "width": 1568,
+      "height": 728,
+      "rows": 90,
+      "needleRows": [
+        5,
+        35,
+        55
+      ]
+    },
+    {
+      "page": 4,
+      "width": 1568,
+      "height": 728,
+      "rows": 90,
+      "needleRows": [
+        1,
+        37,
+        81
+      ]
+    }
+  ]
+}

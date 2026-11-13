@@ -1,0 +1,171 @@
+=== earlier coding session transcript ===
+[user] We picked the valtio package for client state.
+[assistant] Rafael Moreau will review the change before it ships.
+2026-03-23T04:25:00.000Z INFO worker=w9 req=d27666e703b2 dur_ms=8518 path=/api/v2/events status=200
+2026-03-23T04:25:00.947Z INFO worker=w3 req=b255918c19cd dur_ms=3369 path=/api/v2/reports status=200
+2026-03-23T04:25:01.156Z INFO worker=w3 req=df3e68a4ffc1 dur_ms=1245 path=/api/v2/billing status=200
+2026-03-23T04:25:06.234Z INFO worker=w3 req=f51eb950cc55 dur_ms=5955 path=/api/v2/items status=200
+2026-03-23T04:25:09.920Z INFO worker=w4 req=78bc24f49b77 dur_ms=9794 path=/api/v2/reports status=200
+2026-03-23T04:25:04.730Z INFO worker=w9 req=bf1d9682d81c dur_ms=6204 path=/api/v2/search status=200
+2026-03-23T04:25:19.632Z INFO worker=w1 req=12df01c93534 dur_ms=2801 path=/api/v2/users status=200
+2026-03-23T04:25:09.023Z INFO worker=w5 req=1eebf12a8aa3 dur_ms=8641 path=/api/v2/search status=200
+2026-03-23T04:25:25.736Z INFO worker=w6 req=277649f3a5a0 dur_ms=4041 path=/api/v2/tokens status=200
+2026-03-23T04:25:11.502Z INFO worker=w9 req=cf65a1504b98 dur_ms=2777 path=/api/v2/users status=200
+2026-03-23T04:25:38.190Z INFO worker=w4 req=1255e5f337c0 dur_ms=6126 path=/api/v2/tokens status=200
+2026-03-23T04:25:08.547Z INFO worker=w3 req=863d4a3af15d dur_ms=8104 path=/api/v2/events status=200
+2026-03-23T04:25:10.716Z INFO worker=w1 req=3f3f95259993 dur_ms=8004 path=/api/v2/search status=200
+2026-03-23T04:25:32.097Z INFO worker=w4 req=fd7d509bf10a dur_ms=4446 path=/api/v2/orders status=200
+2026-03-23T04:25:33.222Z INFO worker=w8 req=fd8383469995 dur_ms=8815 path=/api/v2/billing status=200
+2026-03-23T04:25:46.425Z INFO worker=w8 req=4012a0a79c8f dur_ms=1087 path=/api/v2/events status=200
+2026-03-23T04:25:50.272Z INFO worker=w3 req=1cceccdae3d9 dur_ms=2301 path=/api/v2/events status=200
+2026-03-23T04:25:20.621Z INFO worker=w9 req=578d5a068fd5 dur_ms=5485 path=/api/v2/orders status=200
+2026-03-23T04:25:38.556Z INFO worker=w3 req=07172d8022bb dur_ms=7722 path=/api/v2/billing status=200
+2026-03-23T04:25:56.297Z INFO worker=w6 req=82a51306ac78 dur_ms=8944 path=/api/v2/search status=200
+2026-03-23T04:25:47.240Z INFO worker=w5 req=56e13c15ca31 dur_ms=7329 path=/api/v2/items status=200
+2026-03-23T04:25:20.706Z INFO worker=w6 req=83b136f41c79 dur_ms=9226 path=/api/v2/search status=200
+2026-03-23T04:25:59.092Z INFO worker=w8 req=7a21759626ee dur_ms=8436 path=/api/v2/search status=200
+2026-03-23T04:25:54.142Z INFO worker=w5 req=79d72df64aaa dur_ms=5363 path=/api/v2/events status=200
+2026-03-23T04:25:50.856Z INFO worker=w2 req=6bc7a6cb37a1 dur_ms=3377 path=/api/v2/billing status=200
+2026-03-23T04:26:03.825Z INFO worker=w4 req=246c3835f3d1 dur_ms=1162 path=/api/v2/tokens status=200
+2026-03-23T04:25:12.116Z INFO worker=w4 req=e3b8d6e61a51 dur_ms=3564 path=/api/v2/tokens status=200
+2026-03-23T04:26:36.363Z INFO worker=w5 req=d956fe945f2a dur_ms=9432 path=/api/v2/items status=200
+2026-03-23T04:26:23.440Z INFO worker=w9 req=dcbb44f364f4 dur_ms=1243 path=/api/v2/search status=200
+2026-03-23T04:25:47.792Z INFO worker=w6 req=ce3200aff626 dur_ms=1411 path=/api/v2/users status=200
+2026-03-23T04:25:58.260Z INFO worker=w3 req=da737816ecea dur_ms=7340 path=/api/v2/billing status=200
+2026-03-23T04:25:53.320Z INFO worker=w2 req=b240bc7b0b40 dur_ms=1459 path=/api/v2/orders status=200
+2026-03-23T04:27:00.352Z INFO worker=w6 req=4aa7236c921d dur_ms=8203 path=/api/v2/items status=200
+2026-03-23T04:26:51.309Z INFO worker=w8 req=9134be8f3470 dur_ms=1972 path=/api/v2/users status=200
+2026-03-23T04:26:41.762Z INFO worker=w5 req=8e0128f0e737 dur_ms=7845 path=/api/v2/users status=200
+2026-03-23T04:26:33.485Z INFO worker=w8 req=fc210c32fcdc dur_ms=7432 path=/api/v2/items status=200
+2026-03-23T04:27:05.568Z INFO worker=w3 req=d3ccdbaa7f62 dur_ms=6568 path=/api/v2/users status=200
+2026-03-23T04:25:52.466Z INFO worker=w7 req=b26c05073809 dur_ms=3950 path=/api/v2/users status=200
+2026-03-23T04:27:17.750Z INFO worker=w9 req=1c9aa9f268f3 dur_ms=9706 path=/api/v2/reports status=200
+2026-03-23T04:27:07.140Z INFO worker=w9 req=b24d22cf1138 dur_ms=2663 path=/api/v2/search status=200
+2026-03-23T04:26:10.840Z INFO worker=w3 req=7e43ed8891bf dur_ms=9919 path=/api/v2/reports status=200
+2026-03-23T04:25:36.408Z INFO worker=w8 req=fdf18c8d66ff dur_ms=1503 path=/api/v2/tokens status=200
+2026-03-23T04:26:32.316Z INFO worker=w9 req=87f31ccd2be3 dur_ms=2787 path=/api/v2/users status=200
+2026-03-23T04:26:32.751Z INFO worker=w1 req=807e4722390c dur_ms=3990 path=/api/v2/items status=200
+2026-03-23T04:27:06.588Z INFO worker=w7 req=77db813e005f dur_ms=9433 path=/api/v2/tokens status=200
+2026-03-23T04:27:23.775Z INFO worker=w9 req=f113568fb73f dur_ms=6797 path=/api/v2/orders status=200
+2026-03-23T04:25:12.374Z INFO worker=w6 req=643799e9abaf dur_ms=3796 path=/api/v2/tokens status=200
+2026-03-23T04:26:05.988Z INFO worker=w5 req=ad005e5cb455 dur_ms=8012 path=/api/v2/orders status=200
+2026-03-23T04:27:15.792Z INFO worker=w9 req=d5d439641515 dur_ms=5977 path=/api/v2/reports status=200
+2026-03-23T04:25:55.174Z INFO worker=w2 req=58d186d46772 dur_ms=7798 path=/api/v2/billing status=200
+2026-03-23T04:26:54.900Z INFO worker=w9 req=8cf7c9aa1941 dur_ms=2439 path=/api/v2/search status=200
+2026-03-23T04:26:07.728Z INFO worker=w5 req=04e0ca95f121 dur_ms=2655 path=/api/v2/search status=200
+2026-03-23T04:25:39.936Z INFO worker=w5 req=d8df4204f7dd dur_ms=8853 path=/api/v2/reports status=200
+2026-03-23T04:27:33.806Z INFO worker=w4 req=8a4b4828f608 dur_ms=6722 path=/api/v2/orders status=200
+2026-03-23T04:25:33.966Z INFO worker=w7 req=d44d8687c5e9 dur_ms=9165 path=/api/v2/reports status=200
+2026-03-23T04:27:37.025Z INFO worker=w1 req=ea4cf2135d37 dur_ms=1015 path=/api/v2/items status=200
+| commit | path | digest | size |
+| c6ba2ac2 | src/store/sync/index.ts | sha256:b26cf9bf5de6deee | 1034 bytes |
+| 83b5d2fd | src/cursor/http/worker.ts | sha256:743e89402928426f | 86446 bytes |
+| f268bafd | src/cursor/model/reader.ts | sha256:c848d8754adae893 | 64336 bytes |
+| 511c23d5 | src/trace/cache/parser.ts | sha256:c372f54e76364996 | 14485 bytes |
+| 806c7024 | src/core/cache/parser.ts | sha256:3785a713b1f164fd | 57862 bytes |
+| e6df3ff4 | src/store/io/client.ts | sha256:f199ebfe98bad154 | 50333 bytes |
+| 55b79c75 | src/cursor/util/queue.ts | sha256:aefb713daf3a2b14 | 31656 bytes |
+| f0f2cb29 | src/cursor/util/index.ts | sha256:7b7226dce9a21873 | 66995 bytes |
+| a75912c2 | src/render/io/parser.ts | sha256:bf01c1c12ebc2f66 | 72145 bytes |
+| 2c9e5ec1 | src/proxy/io/queue.ts | sha256:1c759c2232a30812 | 65823 bytes |
+| 4c838a0f | src/batcher/util/state.ts | sha256:50f3350864ba0fea | 79066 bytes |
+| 9334ea70 | src/cursor/http/client.ts | sha256:bc77a8068880c22e | 21679 bytes |
+| 668f7adb | src/batcher/util/client.ts | sha256:2c21448f7f2ae30d | 18892 bytes |
+| b83c6570 | src/gate/io/index.ts | sha256:99e57c57c039b826 | 48715 bytes |
+| fa9c98d2 | src/render/http/state.ts | sha256:0b478679412f71ac | 31703 bytes |
+| 44d01066 | src/batcher/io/parser.ts | sha256:63277d5a8cf092e2 | 57545 bytes |
+| f45d2378 | src/proxy/model/reader.ts | sha256:261078d227b81ab5 | 44323 bytes |
+| ffb9ed8e | src/cursor/http/reader.ts | sha256:1c06b80ea8ab5c2b | 15499 bytes |
+| e53254f8 | src/cursor/cache/reader.ts | sha256:f6f14a81aac98466 | 43840 bytes |
+| 76006542 | src/core/io/client.ts | sha256:4f676e42ff55be3d | 28408 bytes |
+| b630887f | src/store/io/writer.ts | sha256:53c8e7ec561f7150 | 41544 bytes |
+| d0c01e8f | src/store/http/state.ts | sha256:bf95a939fe63dfff | 69982 bytes |
+| b99742f1 | src/gate/cache/queue.ts | sha256:46eb55f160c15c58 | 38122 bytes |
+| 6910b9c6 | src/cursor/model/writer.ts | sha256:33f5aba9c896cab1 | 33799 bytes |
+| a9193495 | src/gate/util/reader.ts | sha256:ce433b9b6679c02d | 31340 bytes |
+| 8e15876a | src/batcher/model/state.ts | sha256:02480a2f2274922d | 6204 bytes |
+| 8ae622e0 | src/store/cache/reader.ts | sha256:da4f3f17511ed918 | 5771 bytes |
+| 2e8dac1d | src/store/sync/queue.ts | sha256:8521fe9cc19a518d | 2253 bytes |
+| fdeba060 | src/proxy/cache/reader.ts | sha256:bdf62eaddb7351e6 | 20930 bytes |
+| e186ba78 | src/trace/model/client.ts | sha256:ceb4c678633205b7 | 14947 bytes |
+| 27bc7992 | src/render/http/index.ts | sha256:9e9cd8afb97954f1 | 25043 bytes |
+| a1847051 | src/store/util/index.ts | sha256:ded7cb78b7308a3f | 39507 bytes |
+| fd4f6a86 | src/core/http/writer.ts | sha256:3cd6b3dce0e3ff95 | 91364 bytes |
+| 64a5afc9 | src/render/cache/writer.ts | sha256:d67c052959cd16bd | 67977 bytes |
+| d737c7f4 | src/core/io/reader.ts | sha256:adc792c80d904543 | 21826 bytes |
+| 928ce4aa | src/gate/model/index.ts | sha256:185676cc8eb55925 | 60351 bytes |
+| 7eeeb55d | src/gate/sync/state.ts | sha256:73a7b56b468d7b4b | 21184 bytes |
+| 52df39f6 | src/trace/model/index.ts | sha256:9c90c06eab3e4157 | 82455 bytes |
+| 81292865 | src/core/io/queue.ts | sha256:a27017bcfda8df6f | 59784 bytes |
+| 7a5aca68 | src/store/sync/client.ts | sha256:b1c48566e5d7a185 | 56560 bytes |
+| 6c39e2c5 | src/proxy/cache/queue.ts | sha256:6e7dd718e61b19c9 | 27421 bytes |
+| 5dfb785e | src/core/util/queue.ts | sha256:110a72fecf019f18 | 62221 bytes |
+| 1f94dfa3 | src/cursor/sync/queue.ts | sha256:8054b421ed854a57 | 92164 bytes |
+| 48d958d6 | src/proxy/cache/client.ts | sha256:b769bc46f6dc2567 | 74252 bytes |
+| 1a7e0723 | src/store/model/parser.ts | sha256:e006719223582c82 | 35271 bytes |
+| 3d5dd5ce | src/trace/util/index.ts | sha256:b389fb4be083890f | 79943 bytes |
+| c485cbb9 | src/core/util/parser.ts | sha256:34340d87f2b4e962 | 15805 bytes |
+| 1c6012f3 | src/trace/model/state.ts | sha256:73d39eb56fa7e43f | 43484 bytes |
+| b32a5a1f | src/store/cache/client.ts | sha256:2343a9fae603b615 | 30419 bytes |
+| d12e9585 | src/batcher/util/queue.ts | sha256:ef0626c4191f3adb | 57077 bytes |
+| 11685448 | src/render/util/state.ts | sha256:d445642a0a2e15ef | 18973 bytes |
+| a5d719fd | src/gate/http/worker.ts | sha256:0b119c36922e68b1 | 34577 bytes |
+| 225024fe | src/batcher/model/reader.ts | sha256:184ed7ec967a1a75 | 54459 bytes |
+| ef9d01f1 | src/cursor/cache/worker.ts | sha256:be88e175d63ac281 | 34661 bytes |
+| 7de87571 | src/proxy/http/index.ts | sha256:ec56c537de218cea | 28407 bytes |
+2026-03-21T17:48:00.000Z INFO worker=w1 req=4426e611eb55 dur_ms=7429 path=/api/v2/events status=200
+2026-03-21T17:48:01.018Z INFO worker=w5 req=b4f576163a2c dur_ms=3310 path=/api/v2/tokens status=200
+2026-03-21T17:48:03.202Z INFO worker=w4 req=319c6d2875d4 dur_ms=3799 path=/api/v2/events status=200
+2026-03-21T17:48:06.162Z INFO worker=w8 req=b67b6c9d0ffd dur_ms=3650 path=/api/v2/search status=200
+2026-03-21T17:48:01.916Z INFO worker=w2 req=248d936f18b1 dur_ms=6697 path=/api/v2/tokens status=200
+2026-03-21T17:48:10.525Z INFO worker=w6 req=fa216bf5df48 dur_ms=8325 path=/api/v2/orders status=200
+2026-03-21T17:48:07.272Z INFO worker=w8 req=87a93e000d8e dur_ms=1285 path=/api/v2/tokens status=200
+2026-03-21T17:48:19.257Z INFO worker=w7 req=d926012420fa dur_ms=6022 path=/api/v2/events status=200
+2026-03-21T17:48:14.904Z INFO worker=w7 req=3a7e4feb0739 dur_ms=1967 path=/api/v2/events status=200
+2026-03-21T17:48:02.439Z INFO worker=w2 req=fe9e197598c3 dur_ms=4200 path=/api/v2/billing status=200
+2026-03-21T17:48:18.920Z INFO worker=w5 req=a998774d5664 dur_ms=9579 path=/api/v2/orders status=200
+2026-03-21T17:48:43.670Z INFO worker=w1 req=efe98627da06 dur_ms=2415 path=/api/v2/billing status=200
+2026-03-21T17:48:31.632Z INFO worker=w2 req=938fbdcae0e1 dur_ms=6080 path=/api/v2/search status=200
+2026-03-21T17:48:03.939Z INFO worker=w2 req=62f528e693d8 dur_ms=6654 path=/api/v2/search status=200
+2026-03-21T17:48:43.050Z INFO worker=w4 req=b26e250b6872 dur_ms=4544 path=/api/v2/search status=200
+2026-03-21T17:48:37.530Z INFO worker=w5 req=00c0a40cb2dc dur_ms=8810 path=/api/v2/tokens status=200
+2026-03-21T17:49:00.192Z INFO worker=w5 req=1b0776c8e93a dur_ms=4091 path=/api/v2/events status=200
+2026-03-21T17:48:05.814Z INFO worker=w9 req=cb2fc658e8d4 dur_ms=6847 path=/api/v2/billing status=200
+2026-03-21T17:48:26.712Z INFO worker=w8 req=8241ebaa80e3 dur_ms=4864 path=/api/v2/events status=200
+2026-03-21T17:48:58.368Z INFO worker=w8 req=e23425ce962d dur_ms=7635 path=/api/v2/billing status=200
+2026-03-21T17:49:12.080Z INFO worker=w1 req=56e077d6194d dur_ms=3000 path=/api/v2/reports status=200
+2026-03-21T17:48:47.145Z INFO worker=w4 req=f87f397d4bfa dur_ms=3884 path=/api/v2/orders status=200
+2026-03-21T17:48:48.510Z INFO worker=w5 req=3accf551fa7e dur_ms=6221 path=/api/v2/orders status=200
+2026-03-21T17:48:43.539Z INFO worker=w4 req=2c1462ee531d dur_ms=4392 path=/api/v2/events status=200
+2026-03-21T17:48:07.248Z INFO worker=w3 req=4d1523aa02af dur_ms=8560 path=/api/v2/billing status=200
+2026-03-21T17:49:20.875Z INFO worker=w2 req=494380301e9a dur_ms=4120 path=/api/v2/tokens status=200
+2026-03-21T17:48:18.954Z INFO worker=w8 req=e864e46f46f2 dur_ms=4516 path=/api/v2/users status=200
+2026-03-21T17:48:22.761Z INFO worker=w3 req=2cac52a58e19 dur_ms=8670 path=/api/v2/search status=200
+2026-03-21T17:49:40.100Z INFO worker=w7 req=00d164c55e1e dur_ms=2450 path=/api/v2/events status=200
+2026-03-21T17:48:43.587Z INFO worker=w6 req=1c4dc178ce83 dur_ms=2370 path=/api/v2/search status=200
+2026-03-21T17:48:35.790Z INFO worker=w1 req=e172ccfe51d0 dur_ms=9334 path=/api/v2/tokens status=200
+2026-03-21T17:48:57.040Z INFO worker=w4 req=d3b1fb5cabc5 dur_ms=3905 path=/api/v2/search status=200
+2026-03-21T17:48:15.520Z INFO worker=w8 req=c66176698a23 dur_ms=6103 path=/api/v2/search status=200
+2026-03-21T17:49:08.970Z INFO worker=w5 req=bddf1a771d6e dur_ms=8265 path=/api/v2/items status=200
+2026-03-21T17:48:48.212Z INFO worker=w2 req=23d6f4b6a612 dur_ms=3947 path=/api/v2/billing status=200
+2026-03-21T17:49:58.685Z INFO worker=w7 req=e03c5ab4352b dur_ms=2308 path=/api/v2/reports status=200
+2026-03-21T17:49:25.392Z INFO worker=w5 req=43f4e2a52202 dur_ms=6753 path=/api/v2/tokens status=200
+2026-03-21T17:48:50.690Z INFO worker=w5 req=b03dc1972a09 dur_ms=4566 path=/api/v2/orders status=200
+2026-03-21T17:48:08.056Z INFO worker=w9 req=0cef2dbfa98a dur_ms=5577 path=/api/v2/items status=200
+2026-03-21T17:49:50.487Z INFO worker=w8 req=68c223644d6d dur_ms=8595 path=/api/v2/billing status=200
+2026-03-21T17:48:21.400Z INFO worker=w5 req=37f7053e2190 dur_ms=6281 path=/api/v2/items status=200
+2026-03-21T17:48:21.279Z INFO worker=w7 req=9b592a67259c dur_ms=1294 path=/api/v2/users status=200
+2026-03-21T17:49:41.766Z INFO worker=w4 req=91655025bd68 dur_ms=3029 path=/api/v2/reports status=200
+2026-03-21T17:50:10.462Z INFO worker=w5 req=09d8a080a29c dur_ms=3337 path=/api/v2/tokens status=200
+2026-03-21T17:48:35.200Z INFO worker=w1 req=98add303696a dur_ms=8368 path=/api/v2/billing status=200
+2026-03-21T17:48:22.185Z INFO worker=w2 req=7e98d616ffe9 dur_ms=4012 path=/api/v2/tokens status=200
+2026-03-21T17:48:35.926Z INFO worker=w3 req=8988acf7a130 dur_ms=2489 path=/api/v2/items status=200
+2026-03-21T17:48:17.907Z INFO worker=w2 req=fb3f70354e00 dur_ms=5197 path=/api/v2/billing status=200
+2026-03-21T17:50:05.376Z INFO worker=w1 req=2cff585af241 dur_ms=9036 path=/api/v2/users status=200
+2026-03-21T17:48:41.748Z INFO worker=w1 req=ee7c2daf871b dur_ms=4575 path=/api/v2/events status=200
+2026-03-21T17:50:05.050Z INFO worker=w3 req=4b9b92f2c0d9 dur_ms=1852 path=/api/v2/orders status=200
+2026-03-21T17:49:33.483Z INFO worker=w3 req=cbb66934fdd2 dur_ms=5251 path=/api/v2/search status=200
+2026-03-21T17:48:33.384Z INFO worker=w3 req=c097fc349a95 dur_ms=1942 path=/api/v2/users status=200
+2026-03-21T17:50:00.204Z INFO worker=w8 req=e8e51c4da972 dur_ms=3146 path=/api/v2/events status=200
+2026-03-21T17:50:16.998Z INFO worker=w3 req=8cc66913f9ab dur_ms=9359 path=/api/v2/billing status=200
+[user] We did not turn on the cache warmer in production.

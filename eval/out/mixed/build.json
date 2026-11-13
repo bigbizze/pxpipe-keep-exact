@@ -1,0 +1,180 @@
+{
+ "docs": {
+  "text/m000": {
+   "images": 0,
+   "imageTokens": 0,
+   "textChars": 12627,
+   "candidates": 0,
+   "selected": 0,
+   "stats": {}
+  },
+  "interleave-jev-n6/m000": {
+   "images": 1,
+   "imageTokens": 896,
+   "textChars": 0,
+   "candidates": 0,
+   "selected": 0,
+   "stats": {
+    "exactCandidates": 0,
+    "exactSelected": 0
+   }
+  },
+  "text/m010": {
+   "images": 0,
+   "imageTokens": 0,
+   "textChars": 13002,
+   "candidates": 0,
+   "selected": 0,
+   "stats": {}
+  },
+  "interleave-jev-n6/m010": {
+   "images": 3,
+   "imageTokens": 952,
+   "textChars": 1457,
+   "candidates": 91,
+   "selected": 68,
+   "stats": {
+    "exactCandidates": 91,
+    "exactSelected": 68
+   }
+  },
+  "text/m025": {
+   "images": 0,
+   "imageTokens": 0,
+   "textChars": 13414,
+   "candidates": 0,
+   "selected": 0,
+   "stats": {}
+  },
+  "interleave-jev-n6/m025": {
+   "images": 4,
+   "imageTokens": 784,
+   "textChars": 3938,
+   "candidates": 255,
+   "selected": 162,
+   "stats": {
+    "exactCandidates": 255,
+    "exactSelected": 162
+   }
+  },
+  "text/m050": {
+   "images": 0,
+   "imageTokens": 0,
+   "textChars": 14278,
+   "candidates": 0,
+   "selected": 0,
+   "stats": {}
+  },
+  "interleave-jev-n6/m050": {
+   "images": 4,
+   "imageTokens": 616,
+   "textChars": 7852,
+   "candidates": 507,
+   "selected": 324,
+   "stats": {
+    "exactCandidates": 507,
+    "exactSelected": 324
+   }
+  },
+  "text/m075": {
+   "images": 0,
+   "imageTokens": 0,
+   "textChars": 15037,
+   "candidates": 0,
+   "selected": 0,
+   "stats": {}
+  },
+  "interleave-jev-n6/m075": {
+   "images": 2,
+   "imageTokens": 336,
+   "textChars": 12383,
+   "candidates": 763,
+   "selected": 502,
+   "stats": {
+    "exactCandidates": 763,
+    "exactSelected": 502
+   }
+  },
+  "text/m100": {
+   "images": 0,
+   "imageTokens": 0,
+   "textChars": 15745,
+   "candidates": 0,
+   "selected": 0,
+   "stats": {}
+  },
+  "interleave-jev-n6/m100": {
+   "images": 0,
+   "imageTokens": 0,
+   "textChars": 15745,
+   "candidates": 997,
+   "selected": 652,
+   "stats": {
+    "exactCandidates": 997,
+    "exactSelected": 652
+   }
+  }
+ },
+ "jev": {
+  "m000": {
+   "calls": 0,
+   "questions": 0,
+   "cacheHits": 0,
+   "failures": 0,
+   "costUsd": 0,
+   "latencyMs": 0,
+   "selected": 0,
+   "candidates": 0
+  },
+  "m010": {
+   "calls": 0,
+   "questions": 0,
+   "cacheHits": 91,
+   "failures": 0,
+   "costUsd": 0,
+   "latencyMs": 0,
+   "selected": 68,
+   "candidates": 91
+  },
+  "m025": {
+   "calls": 0,
+   "questions": 0,
+   "cacheHits": 255,
+   "failures": 0,
+   "costUsd": 0,
+   "latencyMs": 0,
+   "selected": 162,
+   "candidates": 255
+  },
+  "m050": {
+   "calls": 0,
+   "questions": 0,
+   "cacheHits": 507,
+   "failures": 0,
+   "costUsd": 0,
+   "latencyMs": 0,
+   "selected": 324,
+   "candidates": 507
+  },
+  "m075": {
+   "calls": 0,
+   "questions": 0,
+   "cacheHits": 763,
+   "failures": 0,
+   "costUsd": 0,
+   "latencyMs": 0,
+   "selected": 502,
+   "candidates": 763
+  },
+  "m100": {
+   "calls": 0,
+   "questions": 0,
+   "cacheHits": 997,
+   "failures": 0,
+   "costUsd": 0,
+   "latencyMs": 0,
+   "selected": 652,
+   "candidates": 997
+  }
+ }
+}

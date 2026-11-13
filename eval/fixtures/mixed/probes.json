@@ -1,0 +1,268 @@
+[
+ {
+  "id": "m000-decision",
+  "doc": "m000",
+  "type": "decision",
+  "q": "Which package did the team pick for client state? Reply with only the package name.",
+  "gold": "zustand"
+ },
+ {
+  "id": "m000-name",
+  "doc": "m000",
+  "type": "name",
+  "q": "Who will review the change before it ships? Reply with only the full name.",
+  "gold": "Priya Natarajan"
+ },
+ {
+  "id": "m000-negation",
+  "doc": "m000",
+  "type": "negation",
+  "q": "Is the retry budget turned on in production? Reply ON or OFF.",
+  "gold": "OFF"
+ },
+ {
+  "id": "m010-hex",
+  "doc": "m010",
+  "type": "hex",
+  "q": "Find the log line whose dur_ms is exactly 3380 and report ONLY its req value (12 hex characters).",
+  "gold": "8eefc16bc30c"
+ },
+ {
+  "id": "m010-numeric",
+  "doc": "m010",
+  "type": "numeric",
+  "q": "Find the log line whose req is 58b18f89e9ec and report ONLY its dur_ms number.",
+  "gold": "2814"
+ },
+ {
+  "id": "m010-path",
+  "doc": "m010",
+  "type": "path",
+  "q": "In the file table, which path is in the row with commit b80fc4ac? Report ONLY the path.",
+  "gold": "src/batcher/sync/parser.ts"
+ },
+ {
+  "id": "m010-hash",
+  "doc": "m010",
+  "type": "hash",
+  "q": "In the file table, what is the sha256 digest in the row for src/proxy/util/index.ts? Report ONLY the 16 hex characters after sha256:",
+  "gold": "5066dee896c3690b"
+ },
+ {
+  "id": "m010-decision",
+  "doc": "m010",
+  "type": "decision",
+  "q": "Which package did the team pick for client state? Reply with only the package name.",
+  "gold": "zustand"
+ },
+ {
+  "id": "m010-name",
+  "doc": "m010",
+  "type": "name",
+  "q": "Who will review the change before it ships? Reply with only the full name.",
+  "gold": "Rafael Moreau"
+ },
+ {
+  "id": "m010-negation",
+  "doc": "m010",
+  "type": "negation",
+  "q": "Is the request tracer turned on in production? Reply ON or OFF.",
+  "gold": "OFF"
+ },
+ {
+  "id": "m025-hex",
+  "doc": "m025",
+  "type": "hex",
+  "q": "Find the log line whose dur_ms is exactly 5918 and report ONLY its req value (12 hex characters).",
+  "gold": "a5acb892557d"
+ },
+ {
+  "id": "m025-numeric",
+  "doc": "m025",
+  "type": "numeric",
+  "q": "Find the log line whose req is dfd0876537aa and report ONLY its dur_ms number.",
+  "gold": "3487"
+ },
+ {
+  "id": "m025-path",
+  "doc": "m025",
+  "type": "path",
+  "q": "In the file table, which path is in the row with commit 47f3ab55? Report ONLY the path.",
+  "gold": "src/proxy/http/worker.ts"
+ },
+ {
+  "id": "m025-hash",
+  "doc": "m025",
+  "type": "hash",
+  "q": "In the file table, what is the sha256 digest in the row for src/gate/http/state.ts? Report ONLY the 16 hex characters after sha256:",
+  "gold": "9104f7ba24bb7e70"
+ },
+ {
+  "id": "m025-decision",
+  "doc": "m025",
+  "type": "decision",
+  "q": "Which package did the team pick for client state? Reply with only the package name.",
+  "gold": "mobx"
+ },
+ {
+  "id": "m025-name",
+  "doc": "m025",
+  "type": "name",
+  "q": "Who will review the change before it ships? Reply with only the full name.",
+  "gold": "Tobias Okafor"
+ },
+ {
+  "id": "m025-negation",
+  "doc": "m025",
+  "type": "negation",
+  "q": "Is the audit hook turned on in production? Reply ON or OFF.",
+  "gold": "OFF"
+ },
+ {
+  "id": "m050-hex",
+  "doc": "m050",
+  "type": "hex",
+  "q": "Find the log line whose dur_ms is exactly 4803 and report ONLY its req value (12 hex characters).",
+  "gold": "8acf35057615"
+ },
+ {
+  "id": "m050-numeric",
+  "doc": "m050",
+  "type": "numeric",
+  "q": "Find the log line whose req is 94e905f087f9 and report ONLY its dur_ms number.",
+  "gold": "2378"
+ },
+ {
+  "id": "m050-path",
+  "doc": "m050",
+  "type": "path",
+  "q": "In the file table, which path is in the row with commit adf499af? Report ONLY the path.",
+  "gold": "src/cursor/cache/index.ts"
+ },
+ {
+  "id": "m050-hash",
+  "doc": "m050",
+  "type": "hash",
+  "q": "In the file table, what is the sha256 digest in the row for src/proxy/http/worker.ts? Report ONLY the 16 hex characters after sha256:",
+  "gold": "da781f536779016f"
+ },
+ {
+  "id": "m050-decision",
+  "doc": "m050",
+  "type": "decision",
+  "q": "Which package did the team pick for client state? Reply with only the package name.",
+  "gold": "xstate"
+ },
+ {
+  "id": "m050-name",
+  "doc": "m050",
+  "type": "name",
+  "q": "Who will review the change before it ships? Reply with only the full name.",
+  "gold": "Tobias Okafor"
+ },
+ {
+  "id": "m050-negation",
+  "doc": "m050",
+  "type": "negation",
+  "q": "Is the batch writer turned on in production? Reply ON or OFF.",
+  "gold": "OFF"
+ },
+ {
+  "id": "m075-hex",
+  "doc": "m075",
+  "type": "hex",
+  "q": "Find the log line whose dur_ms is exactly 6633 and report ONLY its req value (12 hex characters).",
+  "gold": "12c94d73d0a9"
+ },
+ {
+  "id": "m075-numeric",
+  "doc": "m075",
+  "type": "numeric",
+  "q": "Find the log line whose req is 10b9065a0a7b and report ONLY its dur_ms number.",
+  "gold": "3404"
+ },
+ {
+  "id": "m075-path",
+  "doc": "m075",
+  "type": "path",
+  "q": "In the file table, which path is in the row with commit be09822c? Report ONLY the path.",
+  "gold": "src/render/io/parser.ts"
+ },
+ {
+  "id": "m075-hash",
+  "doc": "m075",
+  "type": "hash",
+  "q": "In the file table, what is the sha256 digest in the row for src/gate/sync/queue.ts? Report ONLY the 16 hex characters after sha256:",
+  "gold": "0107cdf31338693d"
+ },
+ {
+  "id": "m075-decision",
+  "doc": "m075",
+  "type": "decision",
+  "q": "Which package did the team pick for client state? Reply with only the package name.",
+  "gold": "mobx"
+ },
+ {
+  "id": "m075-name",
+  "doc": "m075",
+  "type": "name",
+  "q": "Who will review the change before it ships? Reply with only the full name.",
+  "gold": "Ines Kowalski"
+ },
+ {
+  "id": "m075-negation",
+  "doc": "m075",
+  "type": "negation",
+  "q": "Is the cache warmer turned on in production? Reply ON or OFF.",
+  "gold": "OFF"
+ },
+ {
+  "id": "m100-hex",
+  "doc": "m100",
+  "type": "hex",
+  "q": "Find the log line whose dur_ms is exactly 1411 and report ONLY its req value (12 hex characters).",
+  "gold": "ce3200aff626"
+ },
+ {
+  "id": "m100-numeric",
+  "doc": "m100",
+  "type": "numeric",
+  "q": "Find the log line whose req is 578d5a068fd5 and report ONLY its dur_ms number.",
+  "gold": "5485"
+ },
+ {
+  "id": "m100-path",
+  "doc": "m100",
+  "type": "path",
+  "q": "In the file table, which path is in the row with commit 6910b9c6? Report ONLY the path.",
+  "gold": "src/cursor/model/writer.ts"
+ },
+ {
+  "id": "m100-hash",
+  "doc": "m100",
+  "type": "hash",
+  "q": "In the file table, what is the sha256 digest in the row for src/cursor/util/queue.ts? Report ONLY the 16 hex characters after sha256:",
+  "gold": "aefb713daf3a2b14"
+ },
+ {
+  "id": "m100-decision",
+  "doc": "m100",
+  "type": "decision",
+  "q": "Which package did the team pick for client state? Reply with only the package name.",
+  "gold": "valtio"
+ },
+ {
+  "id": "m100-name",
+  "doc": "m100",
+  "type": "name",
+  "q": "Who will review the change before it ships? Reply with only the full name.",
+  "gold": "Rafael Moreau"
+ },
+ {
+  "id": "m100-negation",
+  "doc": "m100",
+  "type": "negation",
+  "q": "Is the cache warmer turned on in production? Reply ON or OFF.",
+  "gold": "OFF"
+ }
+]
